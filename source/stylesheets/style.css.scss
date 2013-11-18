@@ -32,14 +32,12 @@ header {
     }
 
     .tomster {
-      position: absolute;
-      left: 960px;
-      top: -10px;
-      z-index: 5;
+      margin-top: -80px;
       height: 190px;
-      width: 200px;
+      width: 100%;
       background-image: url("/images/tomster.png");
       background-repeat: no-repeat;
+      background-position: right 10px center;
     }
   }
 
@@ -51,7 +49,33 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 65px;
+  height: 50px;
+
+  .about {
+    float: left;
+    margin: 17px 0 0 50px;
+    a {
+      color: #FFFFFF;
+      &:hover {
+        color: #008EC1;
+      }
+    }
+  }
+
+  .social {
+    margin: 12px 50px 0 0;
+    float: right;
+
+    a {
+      color: #FFFFFF;
+      &:hover {
+        color: #008EC1;
+      }
+    }
+    i {
+      margin: 0 10px;
+    }
+  }
 }
 
 .content {
@@ -80,40 +104,10 @@ p {
   font-size: 20px;
 }
 
-.about {
-  float: left;
-  margin: 25px 0 0 50px;
-  a {
-    color: #FFFFFF;
-    &:hover {
-      color: #008EC1;
-    }
-  }
-}
-
-.social {
-  margin: 20px 50px 0 0;
-  float: right;
-
-  a {
-    color: #FFFFFF;
-    &:hover {
-      color: #008EC1;
-    }
-  }
-  i {
-    margin: 0 10px;
-  }
-}
-
-.note {
-  font-size: 15px;
-  text-align: right;
-}
-
 .email_signup {
   width: 400px;
   margin: 30px auto;
+  height: 150px;
 }
 
 .newsletter {
