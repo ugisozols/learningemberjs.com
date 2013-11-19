@@ -11,38 +11,6 @@ a {
   text-decoration: none;
 }
 
-.footnote {
-  font-size: 13px;
-}
-
-header {
-  background: #008EC1;
-  height: 130px;
-
-  .content {
-    margin: 0 auto;
-    width: 900px;
-
-    h1 {
-      margin: 0;
-      padding-top: 30px;
-      color: #FFFFFF;
-      font-size: 45px;
-      font-weight: normal;
-    }
-
-    .tomster {
-      margin-top: -80px;
-      height: 190px;
-      width: 100%;
-      background-image: url("/images/tomster.png");
-      background-repeat: no-repeat;
-      background-position: right 10px center;
-    }
-  }
-
-}
-
 footer {
   background-color: #2f2f2f;
   color: #fff;
@@ -89,13 +57,17 @@ section {
 
 h1 {
   font-family: 'Alfa Slab One', cursive;
-  font-size: 37px;
+  font-weight: normal;
+  font-size: 45px;
   &.part1 {
     margin-bottom: 0;
   }
   &.part2 {
     margin: 0;
     text-align: right;
+  }
+  .blue {
+    color: #008EC1;
   }
 }
 
@@ -155,4 +127,8 @@ p {
       opacity:0.9;
     }
   }
+}
+
+.twitter-share-button {
+  float: right;
 }
